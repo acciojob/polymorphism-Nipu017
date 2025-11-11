@@ -1,9 +1,9 @@
 package com.driver.test;
 
+
 public class Main {
 
     public static class Product {
-
         public int product(int x, int y) {
             return x * y;
         }
@@ -18,11 +18,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
         Product p = new Product();
-
-        p.product(5, 3);
-        p.product(2, 3, 4);
-        p.product(2.5, 3.5);
+        System.out.println(p.product(5, 3));
+        System.out.println(p.product(2, 3, 4));
+        System.out.println(p.product(2.5, 3.5));
     }
 }
